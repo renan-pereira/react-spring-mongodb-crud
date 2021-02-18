@@ -12,6 +12,9 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.eclipse.microprofile.opentracing.Traced;
+
+@Traced
 @Path("/produtos") 
 @Transactional
 public class ProdutosResource {
