@@ -28,4 +28,11 @@ public class GreetingResource {
         return service.greeting(name);
     }
 
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("/testeRenan")
+    public String testeRenan() {
+        return "Teste deploy nova integracao";
+    }
+
 }
