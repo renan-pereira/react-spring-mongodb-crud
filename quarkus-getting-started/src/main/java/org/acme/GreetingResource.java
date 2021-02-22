@@ -30,9 +30,9 @@ public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    @Path("/testeRenan")
+    @Path("/testePereira")
     public String testeRenan() {
-        return "Teste deploy nova integracao";
+        return "Teste Pereira deploy nova integracao";
     }
 
 }
