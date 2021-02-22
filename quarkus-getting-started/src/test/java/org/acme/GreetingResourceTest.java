@@ -17,7 +17,7 @@ public class GreetingResourceTest {
           .when().get("/hello-resteasy")
           .then()
              .statusCode(200)
-             .body(is("Hello RESTEasy v.2"));
+             .body(is("Hello RESTEasy v.3.0"));
     }
 
 
