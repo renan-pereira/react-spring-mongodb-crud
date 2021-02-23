@@ -32,7 +32,7 @@ public class GreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/testePereira")
     public String testeRenan() {
-        return "Teste Pereira deploy nova integracao";
+        return "Teste Marco deploy nova integracao";
     }
 
 }
