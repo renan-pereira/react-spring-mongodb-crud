@@ -9,7 +9,7 @@ import javax.ws.rs.core.MediaType;
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
-@Path("/testes") 
+@Path("/organizations") 
 @Transactional
 public class TesteResource {
     
@@ -19,10 +19,10 @@ public class TesteResource {
 
     @GET
     @Produces(value = MediaType.APPLICATION_JSON)
-    @Path("tempolocal")
+    @Path("local")
     public String methodname() {
         
-        return service.getProdutos();
+        return service.getOrganizations();
 
     }
 }

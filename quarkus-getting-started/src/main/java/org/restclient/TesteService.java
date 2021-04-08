@@ -14,5 +14,5 @@ public interface TesteService {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("tempo")
-    public String getProdutos();
+    public String getOrganizations();
 }
