@@ -31,9 +31,8 @@ public class ProdutosResource {
 
     @POST
     @Consumes(value = MediaType.APPLICATION_JSON)
-    public Response addProduto(Produto p){
+    public void addProduto(Produto p){
         entityManager.persist(p);
-        return Response.status(Status.CREATED).build();
     }
 
 }
